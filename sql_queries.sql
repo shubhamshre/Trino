@@ -1,5 +1,5 @@
 -- Creating minio/hive schema and table
-CREATE SCHEMA minio.you_schema WITH (location = 's3a://datalake/');
+CREATE SCHEMA minio.you_schema WITH (location = 's3a://your_bucket_in_s3/');
 
 CREATE TABLE minio.your_schema.your_table (
   	-- enter your column names with varchar datatype
@@ -11,7 +11,7 @@ WITH (
 );
 
 -- Creating iceberg schema and table
-CREATE SCHEMA iceberg.your_iceberg_schema WITH (location = 's3a://datalake/');
+CREATE SCHEMA iceberg.your_iceberg_schema WITH (location = 's3a://your_bucket_in_s3/');
 
 CREATE TABLE iceberg.your_iceberg_schema.your_iceberg_table
 WITH (
