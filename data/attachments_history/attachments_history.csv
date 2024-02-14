@@ -1,1 +1,0 @@
-log_id,tenant_id,parent_object_uri,attachment_id,attachment_type,attachment_schema,attachment_data,status,insert_timestamp,operation,_load_ts_ms,cdc_op,cdc_source_ts_ms,created_at,updated_at,row_id

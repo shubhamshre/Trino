@@ -1,1 +1,0 @@
-tenant_id,account_id,id,cycle_code,cycle_id,_load_ts_ms,cdc_source_ts_ms,attributes,dispatch_modes,cdc_op
