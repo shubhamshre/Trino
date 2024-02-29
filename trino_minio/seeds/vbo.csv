@@ -1,0 +1,2 @@
+id,ifi_id,name,description,account_holder_id,created_at,modified_at,_load_ts_ms,cdc_source_ts_ms,attributes,cdc_op
+f57d7f96-b12a-40de-b45e-79dcf53ffe02,140793,Disney,Disney Onboarded from VBO Center,b465ae59-3dd7-46fa-b069-4fc494f5bda4,2022-04-17 14:01:37.585000,2022-04-17 14:01:37.585000,1687935907000,1687714672977,,

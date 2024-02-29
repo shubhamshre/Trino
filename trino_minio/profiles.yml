@@ -1,0 +1,31 @@
+# trino_minio:
+#   outputs:
+#     dev:
+#       type: trino
+#       method: boto3
+#       catalog: iceberg
+#       bucket: gds-data
+#       host: localhost
+#       port: 8080
+#       region: us-east-1
+#       schema: gds_schema
+#       user: admin
+#       threads: 32
+#       session_properties:
+#         minio.insert_existing_partitions_behavior: OVERWRITE
+#   target: dev
+
+
+trino_minio:
+  outputs:
+    dev:
+      type: trino
+      method: none
+      database: iceberg
+      host: localhost
+      port: 8080     
+      schema: datalake
+      user: admin
+      threads: 16
+  target: dev
+
