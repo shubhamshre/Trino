@@ -1,1 +1,0 @@
-id,policy_version_id,action,transaction_category,min_required_amount,max_allowed_amount,error_code,ifi,_load_ts_ms,cdc_source_ts_ms,cdc_op
